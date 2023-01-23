@@ -1,0 +1,90 @@
+.custom-nav-wrapper{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.custom-nav-links{
+    margin-left: 7rem;
+}
+
+#custom-nav-link {
+    margin-left: 3rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 40px;
+
+    color: #000000;
+}
+
+.custom-home-image{
+    position: absolute;
+    z-index: -1;
+    width: 645px;
+    height: 1170px;
+    left: 0px;
+    top: -100px;
+    border-radius: 15px;
+    background: url(../../images/image\ 2.png);
+    background-size: cover;
+}
+
+
+
+.custom-home-text-1{
+    position: absolute;
+    width: 604px;
+    height: 72px;
+    left: 304px;
+    top: 556px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+}
+.custom-home-text-2{
+    position: absolute;
+    width: 890px;
+    height: 72px;
+    left: 438px;
+    top: 625px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+}
+
+.custom-social-media-links{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+    right: 25px;
+    top: 19px;
+}
+.custom-social-media-links img{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.custom-home-menu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+    right: 25px;
+    top: 19px;
+    display: none;
+    cursor: pointer;
+}

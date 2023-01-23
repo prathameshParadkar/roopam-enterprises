@@ -1,0 +1,90 @@
+.custom-project-text{
+    position: absolute;
+    width: 385px;
+    height: 41px;
+    left: 80px;
+    top: 100px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #7F7F7F;
+}
+
+.custom-project-card{
+    border: none;
+    
+}
+.custom-project-card-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #716D6D;
+    
+}
+.custom-project-card-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #2CB2BB;
+}
+
+.custom-project-card-img{
+    width: 400px;
+    height: 262.79px;
+}
+
+.custom-project-card-body{
+    margin-left: 15vw;
+    width: 57vw;
+}
+
+.custom-card-wrapper-1{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translateX(-50%);
+}
+.custom-card-wrapper-2{
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    transform: translateX(-50%);
+}
+
+.custom-project-card-btn{
+    position: absolute;
+    width: 202px;
+    height: 50px;
+    top: 200px;
+    left: 1000px;
+    border: none;
+    background: #2CB2BB;
+    border-radius: 15px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+    transition: 200ms;
+}
+
+.custom-project-card-btn:hover{
+    border: 2px #2CB2BB solid ;
+    background-color: white;
+    color: #2CB2BB;
+}
+
+.custom-nav-links{
+    margin-left: 100px;
+}

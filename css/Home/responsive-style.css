@@ -1,0 +1,43 @@
+@media (max-width: 1199.98px) { 
+    .custom-home-text-1{
+        font-size: 34px;
+    }
+    .custom-home-text-2{
+        font-size: 34px;
+        top: 600px;
+    }
+    #custom-nav-link {
+        margin-left: 1rem;
+        font-size: 18px;
+
+    }
+ }
+@media (max-width: 991.98px) { 
+
+    .custom-social-media-links{
+        flex-direction: row;
+        right: 150px;
+    }
+    .custom-social-media-links img{
+        margin-right: 20px;
+    }
+    .custom-home-menu{
+        display: block;
+    }
+    .custom-home-image{
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        left: 0px;
+        top: -100px;
+        border-radius: 15px;
+        background: url(../../images/image\ 2.png);
+        background-size: cover;
+    }
+    .custom-home-logo{
+        scale: 0.7;
+        margin-left: 0;
+    }
+
+ }
+
