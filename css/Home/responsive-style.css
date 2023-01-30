@@ -1,43 +1,98 @@
-@media (max-width: 1199.98px) { 
-    .custom-home-text-1{
+@media (max-width: 1199.98px) {
+    .custom-home-text-1 {
         font-size: 34px;
     }
-    .custom-home-text-2{
+
+    .custom-home-text-2 {
         font-size: 34px;
         top: 600px;
     }
+
     #custom-nav-link {
         margin-left: 1rem;
         font-size: 18px;
 
     }
- }
-@media (max-width: 991.98px) { 
+}
 
-    .custom-social-media-links{
+@media (max-width: 991.98px) {
+
+    .custom-home-wrapper {
+        overflow-y: scroll;
+    }
+
+    .custom-nav-body {
+        background-color: #F8F9FA;
+    }
+
+    .custom-social-media-links {
         flex-direction: row;
         right: 150px;
     }
-    .custom-social-media-links img{
+
+    .custom-social-media-links img {
         margin-right: 20px;
     }
-    .custom-home-menu{
+
+    .custom-home-menu {
         display: block;
     }
-    .custom-home-image{
-        position: absolute;
-        z-index: -1;
-        width: 100%;
-        left: 0px;
-        top: -100px;
-        border-radius: 15px;
-        background: url(../../images/image\ 2.png);
-        background-size: cover;
+
+    .custom-home-image {
+        width: 85%;
+        height: 1500px;
+        left: 50%;
+        top: 10%;
+        transform: translateX(-50%);
     }
-    .custom-home-logo{
+
+    .custom-home-logo {
         scale: 0.7;
         margin-left: 0;
     }
 
- }
+    .custom-container {
+        position: relative;
+    }
 
+    .custom-home-text-1 {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 1550px;
+        font-size: 35px;
+    }
+
+    .custom-home-text-2 {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 1600px;
+        font-size: 35px;
+        white-space: nowrap;
+    }
+
+}
+
+@media (max-width: 764px) {
+    .custom-home-image {
+        width: 90%;
+        height: 750px;
+        left: 50%;
+        top: 10%;
+        transform: translateX(-50%);
+    }
+
+    .custom-home-text-1 {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 755px;
+        font-size: 20px;
+    }
+
+    .custom-home-text-2 {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 790px;
+        font-size: 20px;
+        white-space: nowrap;
+    }
+}

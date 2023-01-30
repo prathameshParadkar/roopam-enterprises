@@ -1,8 +1,8 @@
-.custom-nav-links{
+.custom-nav-links {
     margin-left: 100px;
 }
 
-.custom-services-title{
+.custom-services-title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -12,7 +12,7 @@
     color: #000000;
 }
 
-.custom-services-hr{
+.custom-services-hr {
     width: 100px;
     position: absolute;
     left: 50%;
@@ -21,13 +21,12 @@
     transform: translateX(-50%);
 }
 
-.custom-services-text{
+.custom-services-text {
     width: 75%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 29px;
     text-align: center;
     position: absolute;
     left: 50%;
@@ -36,10 +35,8 @@
     margin-top: 10px;
 }
 
-.custom-services-superServices{
+.custom-services-superServices {
     position: absolute;
-    width: 246px;
-    height: 47px;
     left: 165px;
     top: 250px;
 
@@ -51,43 +48,56 @@
     color: #000000;
 }
 
-.custom-services-card-1{
+.custom-services-card-1 {
     width: 320px;
     height: 400px;
     position: absolute;
-    left: 183px;
+    left: 20%;
+    transform: translateX(-50%);
     top: 300px;
 
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 30px;
+    transition: 250ms;
 }
-.custom-services-card-title{
+.custom-services-card-1:hover .custom-services-card-btn {
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFF;
+}
+.custom-services-card-1:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.custom-services-card-title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 29px;
     margin-top: 15px;
     color: #2CB2BB;
 }
-.custom-services-card-text{
+
+.custom-services-card-text {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 30px;
-    color: #000000;
 }
 
-.custom-services-card-btn{
-    margin-top: 30px;
-    background-color: white;
+.custom-services-card-btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    background-color: transparent;
     border: none;
     border-bottom: 1px solid #000000;
 }
 
-.custom-services-card-2{
+
+
+.custom-services-card-2 {
     width: 320px;
     height: 400px;
     position: absolute;
@@ -95,29 +105,47 @@
     top: 300px;
     transform: translateX(-50%);
     background: #FFFFFF;
-    background-color: #000000;
+    color: #000000;
+    border: 1px solid #000000;
     border-radius: 30px;
+    transition: 250ms;
 }
-.custom-services-card-text-2{
+.custom-services-card-2:hover .custom-services-card-btn-2 {
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFF;
+}
+.custom-services-card-2:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.custom-services-card-title-2 {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    margin-top: 30px;
-    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 15px;
+    color: #2CB2BB;
 }
 
-.custom-services-card-btn-2{
+.custom-services-card-text-2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
     margin-top: 30px;
-    background-color: black;
+}
+
+.custom-services-card-btn-2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    background-color: transparent;
     border: none;
-    border-bottom: 1px solid white;
-    color: white;
+    border-bottom: 1px solid #000000;
 }
 
 
 
-.custom-services-card-3{
+.custom-services-card-3 {
     width: 320px;
     height: 400px;
     position: absolute;
@@ -128,5 +156,53 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 30px;
+    transition: 250ms;
+}
+.custom-services-card-3:hover .custom-services-card-btn-3 {
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFF;
+}
+.custom-services-card-3:hover {
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
+.custom-services-card-title-3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 15px;
+    color: #2CB2BB;
+}
+
+
+.custom-services-card-text-3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.custom-services-card-btn-3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.custom-services-card-btn-3:hover {
+    border-bottom: 1px solid #FFF; 
+    color: white;  
+}
+
+.custom-card {
+    width: 25%;
+    height: 100%;
+}
+
+.custom-container {
+    position: relative;
+}

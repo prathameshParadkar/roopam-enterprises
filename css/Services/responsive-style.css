@@ -1,8 +1,35 @@
-@media (max-width: 1199.98px) { 
+@media (max-width: 1199.98px) {}
 
- }
-@media (max-width: 991.98px) { 
+@media (max-width: 991.98px) {
+    .custom-services-superServices {
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap
+    }
 
+    .custom-services-card-3 {
 
- }
+        top: 1200px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
+    .custom-services-card-1 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .custom-services-card-2 {
+        top: 750px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+
+@media (max-width: 764px) {
+    .custom-services-text {
+        font-size: 15px;
+    }
+
+}

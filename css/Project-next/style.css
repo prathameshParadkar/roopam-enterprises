@@ -1,0 +1,55 @@
+.custom-main-wrapper img {
+    height: 30vw;
+    width: 50vw;
+    min-height: 360px;
+    min-width: 600px;
+    border-radius: 8px;
+}
+
+.custom-main-wrapper {
+    margin-left: 10%;
+    overflow-y: hidden;
+}
+
+.custom-container {
+    margin-top: 20px;
+    display: flex;
+    width: 75%;
+    justify-content: flex-start;
+    overflow-y: hidden;
+}
+
+.custom-body {
+    background-color: transparent;
+    border: none;
+
+}
+
+.custom-side-item img {
+    width: 135px;
+    height: 94px;
+}
+
+.custom-side-item {
+    background-color: transparent;
+    border: none;
+}
+
+.custom-project-name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #2CB2BB;
+
+}
+
+.custom-project-info {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #716D6D;
+
+
+}

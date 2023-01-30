@@ -1,10 +1,10 @@
 .custom-project-text{
-    position: absolute;
+
     width: 385px;
     height: 41px;
-    left: 80px;
-    top: 100px;
-
+    padding: 3%;
+    margin-left: 7%;
+    margin-bottom: 3%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -15,14 +15,15 @@
 
 .custom-project-card{
     border: none;
-    
+    max-width: none;
+    max-width: 540px;
 }
 .custom-project-card-text{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-
+    margin-left: 6%;
     color: #716D6D;
     
 }
@@ -31,8 +32,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
-    line-height: 39px;
-
+    margin-left: 6%;
     color: #2CB2BB;
 }
 
@@ -44,27 +44,29 @@
 .custom-project-card-body{
     margin-left: 15vw;
     width: 57vw;
+    position: relative;
+    
 }
 
 .custom-card-wrapper-1{
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    transform: translateX(-50%);
+    padding-left: 10%;
 }
 .custom-card-wrapper-2{
-    position: absolute;
-    top: 65%;
-    left: 25%;
-    transform: translateX(-50%);
+    padding-left: 10%;
+    
 }
 
+.custom-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
 .custom-project-card-btn{
     position: absolute;
     width: 202px;
     height: 50px;
-    top: 200px;
-    left: 1000px;
+    top: 100%;
+    right: 10%;
     border: none;
     background: #2CB2BB;
     border-radius: 15px;
