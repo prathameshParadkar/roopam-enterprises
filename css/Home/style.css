@@ -5,15 +5,9 @@
     overflow: hidden;
 }
 
-.custom-nav-body {
-    background-color: transparent;
-    width: 100vw;
-}
-
 .custom-nav-links {
     margin-left: 7rem;
 }
-
 
 
 .custom-home-image {
@@ -47,7 +41,6 @@
     top: 625px;
 
     font-family: 'Cinzel';
-    font-style: bold;
     font-weight: 400;
     font-size: 48px;
     color: #000000;

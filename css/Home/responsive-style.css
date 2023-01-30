@@ -70,6 +70,10 @@
         white-space: nowrap;
     }
 
+    .custom-services-text{
+        width: 80%;
+    }
+
 }
 
 @media (max-width: 764px) {
@@ -85,14 +89,17 @@
         left: 50%;
         transform: translateX(-50%);
         top: 755px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .custom-home-text-2 {
         left: 50%;
         transform: translateX(-50%);
         top: 790px;
-        font-size: 20px;
+        font-size: 18px;
         white-space: nowrap;
+    }
+    .custom-services-text{
+        width: 80%;
     }
 }

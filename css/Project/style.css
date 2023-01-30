@@ -5,7 +5,7 @@
     padding: 3%;
     margin-left: 7%;
     margin-bottom: 3%;
-    font-family: 'Montserrat';
+    font-family: 'Cinzel';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -19,7 +19,7 @@
     max-width: 540px;
 }
 .custom-project-card-text{
-    font-family: 'Montserrat';
+    font-family: 'Satoshi';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -28,7 +28,7 @@
     
 }
 .custom-project-card-title{
-    font-family: 'Montserrat';
+    font-family: 'SF-Pro';
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -50,6 +50,7 @@
 
 .custom-card-wrapper-1{
     padding-left: 10%;
+    margin-bottom: 7%;
 }
 .custom-card-wrapper-2{
     padding-left: 10%;
@@ -71,7 +72,7 @@
     background: #2CB2BB;
     border-radius: 15px;
 
-    font-family: 'Montserrat';
+    font-family: 'SF-Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;

@@ -1,36 +1,45 @@
-body{
+body {
     width: 100vw;
     overflow-x: hidden;
 }
 
-html{
+html {
     width: 100vw;
 }
 
-@font-face {
-    font-family: "Cinzel";
-    src: url(../fonts/Cinzel-Bold.otf);
-    font-weight: bold;
-}
+
 @font-face {
     font-family: "Cinzel";
     src: url(../fonts/Cinzel-Regular.otf);
+    font-weight: normal;
 }
+
 @font-face {
-    font-family: "Satoshi";
-    src: url(../fonts/Satoshi-Bold.otf);
-    font-weight: bold;   
+    font-family: "Cinzel-bold";
+    src: url(../fonts/Cinzel-Bold.otf);
+    font-weight: bold;
 }
+
 @font-face {
     font-family: "Satoshi";
     src: url(../fonts/Satoshi-Regular.otf);
 }
+
 @font-face {
-    font-family: "Satoshi";
-    src: url(../fonts/Satoshi-Light.otf);
-    font-weight: light;
+    font-family: "Satoshi-bold";
+    src: url(../fonts/Satoshi-Bold.otf);
 }
+
+@font-face {
+    font-family: "Satoshi-light";
+    src: url(../fonts/Satoshi-Light.otf);
+}
+
 @font-face {
     font-family: "SF-Pro";
     src: url(../fonts/SF-Pro.ttf);
+}
+
+.nav-link{
+    font-family: 'Satoshi-bold';
 }
